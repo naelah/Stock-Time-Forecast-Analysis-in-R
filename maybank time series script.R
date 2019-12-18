@@ -4,7 +4,7 @@
 #install.packages('extraDistr')
 #install.packages('rstan')
 #install.packages('prophet')
-#install.packages('Rtools')
+# Download RTools
 
 maybank.raw.data = read.csv('Maybank for R.csv')
 str(maybank.raw.data)
